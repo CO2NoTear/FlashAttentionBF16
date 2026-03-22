@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="480">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="24" font-size="20" font-family="sans-serif">FP32 vs BF16 Avg Step Time</text>
+<line x1="70" y1="40" x2="70" y2="410" stroke="black"/>
+<line x1="70" y1="410" x2="960" y2="410" stroke="black"/>
+<line x1="70" y1="410.00" x2="960" y2="410.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="414.00" font-size="11" font-family="sans-serif">0.000</text>
+<line x1="70" y1="336.00" x2="960" y2="336.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="340.00" font-size="11" font-family="sans-serif">0.402</text>
+<line x1="70" y1="262.00" x2="960" y2="262.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="266.00" font-size="11" font-family="sans-serif">0.804</text>
+<line x1="70" y1="188.00" x2="960" y2="188.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="192.00" font-size="11" font-family="sans-serif">1.206</text>
+<line x1="70" y1="114.00" x2="960" y2="114.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="118.00" font-size="11" font-family="sans-serif">1.608</text>
+<line x1="70" y1="40.00" x2="960" y2="40.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="44.00" font-size="11" font-family="sans-serif">2.010</text>
+<rect x="83.35" y="395.84" width="28.48" height="14.16" fill="#4e79a7"/>
+<rect x="115.83" y="406.27" width="28.48" height="3.73" fill="#f28e2b"/>
+<text x="78.90" y="426" font-size="10" font-family="sans-serif">256x64</text>
+<text x="80.68" y="440" font-size="9" font-family="sans-serif">x400</text>
+<rect x="172.35" y="384.57" width="28.48" height="25.43" fill="#4e79a7"/>
+<rect x="204.83" y="405.89" width="28.48" height="4.11" fill="#f28e2b"/>
+<text x="167.90" y="426" font-size="10" font-family="sans-serif">256x128</text>
+<text x="169.68" y="440" font-size="9" font-family="sans-serif">x300</text>
+<rect x="261.35" y="380.28" width="28.48" height="29.72" fill="#4e79a7"/>
+<rect x="293.83" y="404.45" width="28.48" height="5.55" fill="#f28e2b"/>
+<text x="256.90" y="426" font-size="10" font-family="sans-serif">384x64</text>
+<text x="258.68" y="440" font-size="9" font-family="sans-serif">x250</text>
+<rect x="350.35" y="355.55" width="28.48" height="54.45" fill="#4e79a7"/>
+<rect x="382.83" y="404.63" width="28.48" height="5.37" fill="#f28e2b"/>
+<text x="345.90" y="426" font-size="10" font-family="sans-serif">384x128</text>
+<text x="347.68" y="440" font-size="9" font-family="sans-serif">x200</text>
+<rect x="439.35" y="362.51" width="28.48" height="47.49" fill="#4e79a7"/>
+<rect x="471.83" y="403.25" width="28.48" height="6.75" fill="#f28e2b"/>
+<text x="434.90" y="426" font-size="10" font-family="sans-serif">512x64</text>
+<text x="436.68" y="440" font-size="9" font-family="sans-serif">x160</text>
+<rect x="528.35" y="315.73" width="28.48" height="94.27" fill="#4e79a7"/>
+<rect x="560.83" y="402.68" width="28.48" height="7.32" fill="#f28e2b"/>
+<text x="523.90" y="426" font-size="10" font-family="sans-serif">512x128</text>
+<text x="525.68" y="440" font-size="9" font-family="sans-serif">x120</text>
+<rect x="617.35" y="309.05" width="28.48" height="100.95" fill="#4e79a7"/>
+<rect x="649.83" y="398.00" width="28.48" height="12.00" fill="#f28e2b"/>
+<text x="612.90" y="426" font-size="10" font-family="sans-serif">768x64</text>
+<text x="614.68" y="440" font-size="9" font-family="sans-serif">x80</text>
+<rect x="706.35" y="219.79" width="28.48" height="190.21" fill="#4e79a7"/>
+<rect x="738.83" y="393.33" width="28.48" height="16.67" fill="#f28e2b"/>
+<text x="701.90" y="426" font-size="10" font-family="sans-serif">768x128</text>
+<text x="703.68" y="440" font-size="9" font-family="sans-serif">x60</text>
+<rect x="795.35" y="233.93" width="28.48" height="176.07" fill="#4e79a7"/>
+<rect x="827.83" y="392.75" width="28.48" height="17.25" fill="#f28e2b"/>
+<text x="790.90" y="426" font-size="10" font-family="sans-serif">1024x64</text>
+<text x="792.68" y="440" font-size="9" font-family="sans-serif">x40</text>
+<rect x="884.35" y="73.64" width="28.48" height="336.36" fill="#4e79a7"/>
+<rect x="916.83" y="390.48" width="28.48" height="19.52" fill="#f28e2b"/>
+<text x="879.90" y="426" font-size="10" font-family="sans-serif">1024x128</text>
+<text x="881.68" y="440" font-size="9" font-family="sans-serif">x30</text>
+<rect x="800" y="55" width="12" height="12" fill="#4e79a7"/>
+<text x="818" y="65" font-size="12" font-family="sans-serif">FP32 avg ms</text>
+<rect x="800" y="73" width="12" height="12" fill="#f28e2b"/>
+<text x="818" y="83" font-size="12" font-family="sans-serif">BF16 avg ms</text>
+</svg>
