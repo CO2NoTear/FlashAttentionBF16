@@ -1,62 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="480">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="520">
 <rect width="100%" height="100%" fill="white"/>
-<text x="20" y="24" font-size="20" font-family="sans-serif">FP32 vs BF16 Avg Step Time</text>
-<line x1="70" y1="40" x2="70" y2="410" stroke="black"/>
-<line x1="70" y1="410" x2="960" y2="410" stroke="black"/>
-<line x1="70" y1="410.00" x2="960" y2="410.00" stroke="#dddddd" stroke-dasharray="3,3"/>
-<text x="8" y="414.00" font-size="11" font-family="sans-serif">0.000</text>
-<line x1="70" y1="336.00" x2="960" y2="336.00" stroke="#dddddd" stroke-dasharray="3,3"/>
-<text x="8" y="340.00" font-size="11" font-family="sans-serif">0.402</text>
-<line x1="70" y1="262.00" x2="960" y2="262.00" stroke="#dddddd" stroke-dasharray="3,3"/>
-<text x="8" y="266.00" font-size="11" font-family="sans-serif">0.804</text>
-<line x1="70" y1="188.00" x2="960" y2="188.00" stroke="#dddddd" stroke-dasharray="3,3"/>
-<text x="8" y="192.00" font-size="11" font-family="sans-serif">1.206</text>
-<line x1="70" y1="114.00" x2="960" y2="114.00" stroke="#dddddd" stroke-dasharray="3,3"/>
-<text x="8" y="118.00" font-size="11" font-family="sans-serif">1.608</text>
-<line x1="70" y1="40.00" x2="960" y2="40.00" stroke="#dddddd" stroke-dasharray="3,3"/>
-<text x="8" y="44.00" font-size="11" font-family="sans-serif">2.010</text>
-<rect x="83.35" y="395.84" width="28.48" height="14.16" fill="#4e79a7"/>
-<rect x="115.83" y="406.27" width="28.48" height="3.73" fill="#f28e2b"/>
-<text x="78.90" y="426" font-size="10" font-family="sans-serif">256x64</text>
-<text x="80.68" y="440" font-size="9" font-family="sans-serif">x400</text>
-<rect x="172.35" y="384.57" width="28.48" height="25.43" fill="#4e79a7"/>
-<rect x="204.83" y="405.89" width="28.48" height="4.11" fill="#f28e2b"/>
-<text x="167.90" y="426" font-size="10" font-family="sans-serif">256x128</text>
-<text x="169.68" y="440" font-size="9" font-family="sans-serif">x300</text>
-<rect x="261.35" y="380.28" width="28.48" height="29.72" fill="#4e79a7"/>
-<rect x="293.83" y="404.45" width="28.48" height="5.55" fill="#f28e2b"/>
-<text x="256.90" y="426" font-size="10" font-family="sans-serif">384x64</text>
-<text x="258.68" y="440" font-size="9" font-family="sans-serif">x250</text>
-<rect x="350.35" y="355.55" width="28.48" height="54.45" fill="#4e79a7"/>
-<rect x="382.83" y="404.63" width="28.48" height="5.37" fill="#f28e2b"/>
-<text x="345.90" y="426" font-size="10" font-family="sans-serif">384x128</text>
-<text x="347.68" y="440" font-size="9" font-family="sans-serif">x200</text>
-<rect x="439.35" y="362.51" width="28.48" height="47.49" fill="#4e79a7"/>
-<rect x="471.83" y="403.25" width="28.48" height="6.75" fill="#f28e2b"/>
-<text x="434.90" y="426" font-size="10" font-family="sans-serif">512x64</text>
-<text x="436.68" y="440" font-size="9" font-family="sans-serif">x160</text>
-<rect x="528.35" y="315.73" width="28.48" height="94.27" fill="#4e79a7"/>
-<rect x="560.83" y="402.68" width="28.48" height="7.32" fill="#f28e2b"/>
-<text x="523.90" y="426" font-size="10" font-family="sans-serif">512x128</text>
-<text x="525.68" y="440" font-size="9" font-family="sans-serif">x120</text>
-<rect x="617.35" y="309.05" width="28.48" height="100.95" fill="#4e79a7"/>
-<rect x="649.83" y="398.00" width="28.48" height="12.00" fill="#f28e2b"/>
-<text x="612.90" y="426" font-size="10" font-family="sans-serif">768x64</text>
-<text x="614.68" y="440" font-size="9" font-family="sans-serif">x80</text>
-<rect x="706.35" y="219.79" width="28.48" height="190.21" fill="#4e79a7"/>
-<rect x="738.83" y="393.33" width="28.48" height="16.67" fill="#f28e2b"/>
-<text x="701.90" y="426" font-size="10" font-family="sans-serif">768x128</text>
-<text x="703.68" y="440" font-size="9" font-family="sans-serif">x60</text>
-<rect x="795.35" y="233.93" width="28.48" height="176.07" fill="#4e79a7"/>
-<rect x="827.83" y="392.75" width="28.48" height="17.25" fill="#f28e2b"/>
-<text x="790.90" y="426" font-size="10" font-family="sans-serif">1024x64</text>
-<text x="792.68" y="440" font-size="9" font-family="sans-serif">x40</text>
-<rect x="884.35" y="73.64" width="28.48" height="336.36" fill="#4e79a7"/>
-<rect x="916.83" y="390.48" width="28.48" height="19.52" fill="#f28e2b"/>
-<text x="879.90" y="426" font-size="10" font-family="sans-serif">1024x128</text>
-<text x="881.68" y="440" font-size="9" font-family="sans-serif">x30</text>
-<rect x="800" y="55" width="12" height="12" fill="#4e79a7"/>
-<text x="818" y="65" font-size="12" font-family="sans-serif">FP32 avg ms</text>
-<rect x="800" y="73" width="12" height="12" fill="#f28e2b"/>
-<text x="818" y="83" font-size="12" font-family="sans-serif">BF16 avg ms</text>
+<text x="20" y="24" font-size="20" font-family="sans-serif">FP32 baseline vs FP32-OPT vs BF16 (avg step ms)</text>
+<line x1="70" y1="40" x2="70" y2="440" stroke="black"/>
+<line x1="70" y1="440" x2="1060" y2="440" stroke="black"/>
+<line x1="70" y1="440.00" x2="1060" y2="440.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="444.00" font-size="11" font-family="sans-serif">0.000</text>
+<line x1="70" y1="360.00" x2="1060" y2="360.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="364.00" font-size="11" font-family="sans-serif">0.380</text>
+<line x1="70" y1="280.00" x2="1060" y2="280.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="284.00" font-size="11" font-family="sans-serif">0.760</text>
+<line x1="70" y1="200.00" x2="1060" y2="200.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="204.00" font-size="11" font-family="sans-serif">1.140</text>
+<line x1="70" y1="120.00" x2="1060" y2="120.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="124.00" font-size="11" font-family="sans-serif">1.520</text>
+<line x1="70" y1="40.00" x2="1060" y2="40.00" stroke="#dddddd" stroke-dasharray="3,3"/>
+<text x="8" y="44.00" font-size="11" font-family="sans-serif">1.900</text>
+<rect x="79.90" y="423.39" width="21.78" height="16.61" fill="#4e79a7"/>
+<rect x="104.68" y="422.99" width="21.78" height="17.01" fill="#59a14f"/>
+<rect x="129.46" y="435.27" width="21.78" height="4.73" fill="#f28e2b"/>
+<text x="73.96" y="456" font-size="10" font-family="sans-serif">256x64</text>
+<text x="77.92" y="470" font-size="9" font-family="sans-serif">x400</text>
+<rect x="178.90" y="409.51" width="21.78" height="30.49" fill="#4e79a7"/>
+<rect x="203.68" y="410.14" width="21.78" height="29.86" fill="#59a14f"/>
+<rect x="228.46" y="435.23" width="21.78" height="4.77" fill="#f28e2b"/>
+<text x="172.96" y="456" font-size="10" font-family="sans-serif">256x128</text>
+<text x="176.92" y="470" font-size="9" font-family="sans-serif">x300</text>
+<rect x="277.90" y="406.08" width="21.78" height="33.92" fill="#4e79a7"/>
+<rect x="302.68" y="406.36" width="21.78" height="33.64" fill="#59a14f"/>
+<rect x="327.46" y="434.32" width="21.78" height="5.68" fill="#f28e2b"/>
+<text x="271.96" y="456" font-size="10" font-family="sans-serif">384x64</text>
+<text x="275.92" y="470" font-size="9" font-family="sans-serif">x250</text>
+<rect x="376.90" y="377.24" width="21.78" height="62.76" fill="#4e79a7"/>
+<rect x="401.68" y="377.99" width="21.78" height="62.01" fill="#59a14f"/>
+<rect x="426.46" y="433.80" width="21.78" height="6.20" fill="#f28e2b"/>
+<text x="370.96" y="456" font-size="10" font-family="sans-serif">384x128</text>
+<text x="374.92" y="470" font-size="9" font-family="sans-serif">x200</text>
+<rect x="475.90" y="384.52" width="21.78" height="55.48" fill="#4e79a7"/>
+<rect x="500.68" y="382.86" width="21.78" height="57.14" fill="#59a14f"/>
+<rect x="525.46" y="432.46" width="21.78" height="7.54" fill="#f28e2b"/>
+<text x="469.96" y="456" font-size="10" font-family="sans-serif">512x64</text>
+<text x="473.92" y="470" font-size="9" font-family="sans-serif">x160</text>
+<rect x="574.90" y="331.38" width="21.78" height="108.62" fill="#4e79a7"/>
+<rect x="599.68" y="335.02" width="21.78" height="104.98" fill="#59a14f"/>
+<rect x="624.46" y="431.46" width="21.78" height="8.54" fill="#f28e2b"/>
+<text x="568.96" y="456" font-size="10" font-family="sans-serif">512x128</text>
+<text x="572.92" y="470" font-size="9" font-family="sans-serif">x120</text>
+<rect x="673.90" y="327.30" width="21.78" height="112.70" fill="#4e79a7"/>
+<rect x="698.68" y="323.36" width="21.78" height="116.64" fill="#59a14f"/>
+<rect x="723.46" y="425.37" width="21.78" height="14.63" fill="#f28e2b"/>
+<text x="667.96" y="456" font-size="10" font-family="sans-serif">768x64</text>
+<text x="671.92" y="470" font-size="9" font-family="sans-serif">x80</text>
+<rect x="772.90" y="212.30" width="21.78" height="227.70" fill="#4e79a7"/>
+<rect x="797.68" y="221.81" width="21.78" height="218.19" fill="#59a14f"/>
+<rect x="822.46" y="421.67" width="21.78" height="18.33" fill="#f28e2b"/>
+<text x="766.96" y="456" font-size="10" font-family="sans-serif">768x128</text>
+<text x="770.92" y="470" font-size="9" font-family="sans-serif">x60</text>
+<rect x="871.90" y="260.65" width="21.78" height="179.35" fill="#4e79a7"/>
+<rect x="896.68" y="251.79" width="21.78" height="188.21" fill="#59a14f"/>
+<rect x="921.46" y="421.01" width="21.78" height="18.99" fill="#f28e2b"/>
+<text x="865.96" y="456" font-size="10" font-family="sans-serif">1024x64</text>
+<text x="869.92" y="470" font-size="9" font-family="sans-serif">x40</text>
+<rect x="970.90" y="76.36" width="21.78" height="363.64" fill="#4e79a7"/>
+<rect x="995.68" y="88.67" width="21.78" height="351.33" fill="#59a14f"/>
+<rect x="1020.46" y="418.22" width="21.78" height="21.78" fill="#f28e2b"/>
+<text x="964.96" y="456" font-size="10" font-family="sans-serif">1024x128</text>
+<text x="968.92" y="470" font-size="9" font-family="sans-serif">x30</text>
+<rect x="850" y="50" width="12" height="12" fill="#4e79a7"/>
+<text x="868" y="60" font-size="12" font-family="sans-serif">FP32 baseline</text>
+<rect x="850" y="68" width="12" height="12" fill="#59a14f"/>
+<text x="868" y="78" font-size="12" font-family="sans-serif">FP32-OPT</text>
+<rect x="850" y="86" width="12" height="12" fill="#f28e2b"/>
+<text x="868" y="96" font-size="12" font-family="sans-serif">BF16</text>
 </svg>
